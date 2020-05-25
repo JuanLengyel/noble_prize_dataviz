@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: grey;
+}
+
+.dev {
+  border: 1px solid silver;
+}
+
+div#chart-holder {
+  display: grid;
+  grid-template-columns: 8px 3fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+div#chart-header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+div#main-chart {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row: 2;
+}
+
+div#chart-sidebar {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
