@@ -244,3 +244,6 @@ cython_debug/
 
 # Workspace configuration
 .vscode/
+
+# Traspiled code from Typescript
+client/static/js/

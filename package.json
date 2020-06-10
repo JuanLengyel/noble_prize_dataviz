@@ -4,6 +4,8 @@
   "description": "A nobel prize data visualization project based on the book \"Data Visualization with Python and JavaScript\"",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
