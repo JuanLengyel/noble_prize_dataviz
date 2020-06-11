@@ -4,16 +4,25 @@
         "es6": true
     },
     "extends": [
-        "standard"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
+        "d3": true
     },
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
+        "ecmaVersion": 11
     },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier/@typescript-eslint"
+    ],
     "rules": {
     }
 }
